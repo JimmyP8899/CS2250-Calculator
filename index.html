@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator-column">
+        <div id="text" class="text">
+        </div>
+        <div class="calculator-row">
+            <button id="7" onclick="storeVar(value)" value="7">7</button>
+            <button value="8" onclick="storeVar(value)">8</button>
+            <button value="9" onclick="storeVar(value)">9</button>
+            <button value="+" onclick="storeVar(value)" class="operation-button">+</button>
+        </div>
+        <div class="calculator-row">
+            <button value="4" onclick="storeVar(value)">4</button>
+            <button value="5" onclick="storeVar(value)">5</button>
+            <button value="6" onclick="storeVar(value)">6</button>
+            <button value="-" onclick="storeVar(value)" class="operation-button">-</button>
+        </div>
+        <div class="calculator-row">
+            <button value="1" onclick="storeVar(value)">1</button>
+            <button value="2" onclick="storeVar(value)">2</button>
+            <button value="3" onclick="storeVar(value)">3</button>
+            <button value="*" onclick="storeVar(value)" class="operation-button">*</button>
+        </div>
+        <div class="calculator-row">
+            <button onclick="clearText()" class="clear-button">c</button>
+            <button value="0" onclick="storeVar(value)">0</button>
+            <button onclick="calculate()" class="operation-button">=</button>
+            <button value="/" onclick="storeVar(value)" class="operation-button">/</button>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
